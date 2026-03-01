@@ -1,12 +1,12 @@
 # Lesson 8–9: Jenkins + Terraform + Helm + Argo CD (GitOps CI/CD)
 
-## Project Overview
+## Overview
 
 This project presents the implementation of a comprehensive CI/CD pipeline based on Terraform, Jenkins, Helm, Argo CD, and AWS services, specifically Amazon EKS and Amazon ECR.
 
 The primary objective of this work is to illustrate a contemporary GitOps-oriented software delivery model. Within this approach, infrastructure resources are provisioned declaratively through Terraform, Continuous Integration processes are executed by Jenkins, Continuous Deployment is managed by Argo CD, and application delivery is fully automated through version-controlled changes maintained in Git repositories.
 
-## Architecture Overview
+## Architecture
 
 Infrastructure:
 
@@ -22,7 +22,7 @@ CI/CD:
 - Argo CD deployed on the EKS cluster using Helm
 - Argo CD Application configured to automatically monitor and synchronise repository changes with the Kubernetes cluster in accordance with GitOps principles
 
-## Repository Structure
+## Structure
 
 Infrastructure repository:
 lesson-8-9-infra/
