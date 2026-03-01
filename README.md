@@ -1,4 +1,4 @@
-# Lesson 8–9: Jenkins + Terraform + Helm + Argo CD (GitOps CI/CD)
+# GitOps CI/CD: Jenkins + Terraform + Helm + Argo CD 
 
 ## Overview
 
