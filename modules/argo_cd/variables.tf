@@ -10,7 +10,7 @@ variable "chart_version" {
 
 variable "charts_repo_url" {
   type    = string
-  default = "https://github.com/LaResistancePL/lesson-8-9-charts.git"
+  default = "https://github.com/BartoszZygmunt/lesson-8-9-charts.git"
 }
 
 variable "app_namespace" {

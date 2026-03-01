@@ -17,7 +17,7 @@ variable "tags" {
   type = map(string)
   default = {
     Project = "lesson-8-9"
-    Owner   = "LaResistancePL"
+    Owner   = "bartoszzygmunt"
   }
 } 
  

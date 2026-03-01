@@ -27,7 +27,7 @@ module "jenkins" {
 
 module "argo_cd" {
   source          = "./modules/argo_cd"
-  charts_repo_url = "https://github.com/LaResistancePL/lesson-8-9-charts.git"
+  charts_repo_url = "https://github.com/BartoszZygmunt/lesson-8-9-charts.git"
   app_namespace   = "django"
 }
  
