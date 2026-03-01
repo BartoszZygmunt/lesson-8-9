@@ -8,9 +8,9 @@ variable "project_name" {
   default = "lesson-8-9"
 }
 
-# S3 bucket name musi być globalnie unikalny — daj coś swojego
+# S3 bucket name musi być globalnie unikalny 
 variable "name_suffix" {
   type    = string
-  default = "laresistancepl"
+  default = "bartoszzygmunt"
 }
  
