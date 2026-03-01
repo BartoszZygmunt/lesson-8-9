@@ -1,0 +1,18 @@
+controller:
+  serviceType: LoadBalancer
+
+  adminUser: admin
+
+  installPlugins:
+    - kubernetes
+    - workflow-aggregator
+    - git
+    - configuration-as-code
+    - credentials-binding
+    - docker-workflow
+
+  JCasC:
+    defaultConfig: true
+
+agent:
+  enabled: true
